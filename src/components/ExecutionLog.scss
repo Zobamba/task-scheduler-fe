@@ -1,0 +1,30 @@
+.execution-log {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 0.5rem 0 rgb(136 152 170 / 15%);
+
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .executed-task {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    strong {
+      color: #007bff;
+    }
+  }
+}
